@@ -742,7 +742,7 @@ def make_supervisor_latex_table():
 def make_latex_table():
   print_header('r','i','s','sb','u','uj')
   print_subtitle('RV32I Base Instruction Set')
-  print_insts('lui', 'auipc')
+  print_insts('lui', 'auipc','chk')
   print_insts('jal', 'jalr', 'beq', 'bne', 'blt', 'bge', 'bltu', 'bgeu')
   print_insts('lb', 'lh', 'lw', 'lbu', 'lhu', 'sb', 'sh', 'sw')
   print_insts('addi', 'slti', 'sltiu', 'xori', 'ori', 'andi', 'slli.rv32', 'srli.rv32', 'srai.rv32')
